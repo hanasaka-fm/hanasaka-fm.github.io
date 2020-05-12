@@ -10,7 +10,7 @@
     <link>{{ site.url }}{{ site.baseurl }}</link>
     <description>{{ site.description }}</description>
     <language>JA</language>
-    <copyright>NDSFM 2018</copyright>
+    <copyright>{{ site.name }}</copyright>
     <image>
       <url>{{ site.url }}{{ site.baseurl }}/artwork.png</url>
     </image>
@@ -21,14 +21,14 @@
 		</itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:keywords>
-      nds,ndsfm,nagaoka,長岡,niigata,新潟,tech,it,programing,プログラミング,server,サーバー,backend,バックエンド,fontend,フロントエンド
+      hanasakafm
     </itunes:keywords>
     <itunes:explicit>no</itunes:explicit>
 
     {% for p in site.posts %}
     <item>
       <pubDate>{{ p.date | date_to_rfc822 }}</pubDate>
-      <enclosure url="https://storage.googleapis.com/ndsfm/ndsfm_{{ p.title }}.mp3" length="{{ p.audio.length }}" type="audio/mp3" />
+      <enclosure url="https://storage.googleapis.com/hanasakafm/hanasakafm_{{ p.title }}.mp3" length="{{ p.audio.length }}" type="audio/mp3" />
       <title>{{ p.title }}. {{ p.subject }}</title>
       <description><![CDATA[{% include post_text.html post=p %}]]></description>
       <itunes:summary>{{ p.summary }}</itunes:summary>

@@ -3,7 +3,7 @@ run:
 		jekyll serve -d /_site --future --watch --force_polling -H 0.0.0.0 -P 4000
 
 update_feed:
-	gsutil docs/feed.xml gs://ndsfm/feed.xml
+	gsutil docs/feed.xml gs://hanasakafm/feed.xml
 
 update_artwork:
-	gsutil docs/artwork.png gs://ndsfm/artwork.png
+	gsutil docs/artwork.png gs://hanasakafm/artwork.png

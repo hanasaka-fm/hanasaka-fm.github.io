@@ -1,0 +1,43 @@
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+name: ハナサカFM
+title: "ハナサカFM - 旬なtechな話を10分で解説"
+description: "このpodcastは、スタートアップ経営者に明日エンジニアと話せる話の種を10分で提供します。エンジニアがリアルに気になっているテックなトピックをエンジニア目線でスタートアップ経営者にわかりやすく解説していきます。"
+#permalink: ""
+#relative_permalinks: false
+#url: https://www.m0mentum.co.jp
+
+# Apple Podcast Configuration
+podcast:
+  id: idxxxxxxxxxx
+  name: hanasakafm
+
+timezone: Asia/Tokyo
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/artwork.png" # for jekyll-seo-tag
+
+# jekyll-seo-tag
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+logo: "/artwork.png"
+
+facebook:
+  publisher: 
+
+twitter:
+  username: 
+  card: summary
+  tag: hanasakafm
+
+discord:
+  url:
+
+#analytics_account: ""
+#google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+
