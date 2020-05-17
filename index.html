@@ -25,9 +25,8 @@ layout: default
   <div class="top_message">
     楽しんでいただけたら、または興味のありそうな人をご存知でしたらシェアしていただけるとうれしいです。
     お便りもお待ちしております。
-    <a href="https://twitter.com/search?q=%23{{ site.twitter.tag }}&f=tweets"><img class="twitter" src="img/twitter.png">#{{ site.twitter.tag }}</a>
-    、または
-    <a href="{{ site.discord.url }}"><img class="discord" src="img/discord.png" alt="discord"></a>までお寄せください。
+    <a href="https://twitter.com/intent/tweet?button_hashtag={{ site.twitter.tag }}&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="true">{{ site.twitter.tag }}</a>
+    までお寄せください。
   </div>
 
   <ul class="podcasts">
@@ -49,5 +48,15 @@ layout: default
   {% endfor %}
   </ul>
 
-  <iframe src="https://discordapp.com/widget?id=709968537682444350&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+  <div class="widget_container">
+    <div class="widget">
+      <iframe src="https://anchor.fm/hanasakafm/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <div class="widget">
+      <a class="twitter-timeline" href="https://twitter.com/hanasakafm?ref_src=twsrc%5Etfw">Tweets by hanasakafm</a>
+    </div>
+  </div>
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
