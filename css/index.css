@@ -89,6 +89,21 @@ section.podcast {
   margin: 40px auto;
 }
 
+.platforms {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px 20px;
+}
+
+.platforms li {
+  display: inline-block;
+}
+
+.platforms li img {
+  width: 30px;
+  height: 30px;
+}
+
 .widget_container {
   display: flex;
 }

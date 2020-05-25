@@ -2,6 +2,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+timezone: Asia/Tokyo
+
 name: ハナサカFM
 title: "ハナサカFM - 旬なtechな話を10分で解説"
 description: "このpodcastは、スタートアップ経営者に明日エンジニアと話せる話の種を10分で提供します。エンジニアがリアルに気になっているテックなトピックをエンジニア目線でスタートアップ経営者にわかりやすく解説していきます。"
@@ -9,18 +11,31 @@ description: "このpodcastは、スタートアップ経営者に明日エン�
 #relative_permalinks: false
 #url: https://www.m0mentum.co.jp
 
-# Apple Podcast Configuration
-podcast:
-  id: idxxxxxxxxxx
-  name: hanasakafm
-
-timezone: Asia/Tokyo
-
 defaults:
   - scope:
       path: ""
     values:
       image: "/artwork.png" # for jekyll-seo-tag
+
+# Apple Podcast Configuration
+platforms:
+  - name: Anchor
+    icon: anchor.png
+    url: https://anchor.fm/hanasakafm
+  - name: Spotify
+    icon: spotify.png
+    url: https://open.spotify.com/show/1x2j7iocGSJOkkVsfMD14P
+  - name: Google Podcast
+    icon: google_podcast.png
+    url: https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yMTU0NDBhNC9wb2RjYXN0L3Jzcw%3D%3D
+  #  - name: Apple Podcast
+  #    icon: apple_podcast.png
+  #    url: https://pcr.apple.com/idxxxxxx
+  #
+  - name: RSS
+    icon: rss.png
+    url: https://anchor.fm/s/215440a4/podcast/rss
+
 
 # jekyll-seo-tag
 # https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
