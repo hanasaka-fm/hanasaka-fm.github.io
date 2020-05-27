@@ -28,10 +28,9 @@ platforms:
   - name: Google Podcast
     icon: google_podcast.png
     url: https://podcasts.google.com/?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yMTU0NDBhNC9wb2RjYXN0L3Jzcw%3D%3D
-  #  - name: Apple Podcast
-  #    icon: apple_podcast.png
-  #    url: https://pcr.apple.com/idxxxxxx
-  #
+  - name: Apple Podcast
+    icon: apple_podcast.png
+    url: https://podcasts.apple.com/jp/podcast/id1515051079
   - name: RSS
     icon: rss.png
     url: https://anchor.fm/s/215440a4/podcast/rss

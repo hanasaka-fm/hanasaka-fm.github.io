@@ -26,7 +26,7 @@ layout: default
   {% for p in site.platforms %}
       <li>
         <a href="{{ p.url }}">
-          <img class="icon" src="{{ "img/" | append: p.icon | absolute_url }}" alt="{{ p.name }}">
+          <img class="icon" src="{{ "img/" | append: p.icon }}" alt="{{ p.name }}">
         </a>
       </li>
   {% endfor %}
