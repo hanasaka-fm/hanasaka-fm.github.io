@@ -5,8 +5,8 @@ plugins:
 timezone: Asia/Tokyo
 
 name: ハナサカFM
-title: "ハナサカFM - 旬なtechな話を10分で解説"
-description: "このpodcastは、スタートアップ経営者に明日エンジニアと話せる話の種を10分で提供します。エンジニアがリアルに気になっているテックなトピックをエンジニア目線でスタートアップ経営者にわかりやすく解説していきます。"
+title: "ハナサカFM - 旬なTechの話を10分で解説"
+description: "このpodcastは、スタートアップ経営者に明日エンジニアと話せる会話の種を10分で提供します。エンジニアがリアルに気になっているTechなトピックをエンジニア目線でスタートアップ経営者にわかりやすく解説していきます。"
 #permalink: ""
 #relative_permalinks: false
 #url: https://www.m0mentum.co.jp
